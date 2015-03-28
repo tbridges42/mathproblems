@@ -6,4 +6,4 @@ This is a solution to the problem:
 >
 >Can anyone find a smaller number with this property?
 
-This problem and my answer were originall posted at this Facebook page: http://preview.tinyurl.com/qf4topr
+This problem and my answer were originally posted at this Facebook page: http://preview.tinyurl.com/qf4topr
