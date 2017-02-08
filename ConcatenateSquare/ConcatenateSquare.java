@@ -1,11 +1,7 @@
 public class ConcatenateSquare {
   //Returns number of digits of positive integer represented in decimal
-  public static int intLength(int x) {
-    int length=0;
-    while (x > 0){ //Iterate over each digit
-      x = x/10; //Subtract one digit
-      length++; //Increment length
-    }
+  public static int intLength(int n) {
+    int length = (int)(Math.log10(n)+1);
     return length; //Return length
   }
   
