@@ -13,10 +13,7 @@ public class ConcatenateSquare {
     int maxX = 328; //Challenge specifies result less than 328
     double y;
     for (int x=1; x<maxX; x++){ //Iterate over every possibility
-        int temp = intLength(x); //Get the length of the candidate in decimal
-        if (x % 10 == 9){
-          temp = temp-1;  //Candidates ending in 9 require an extra space for successor
-        }
+        int temp = intLength(x+1); //Get the length of the candidate's successor in decimal
         temp = (int)Math.pow(10,temp);
         temp = x*temp; //Shift candidate left to make room for successor
         temp = temp+x+1; //Add successor
